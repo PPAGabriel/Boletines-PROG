@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Boletin_11:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Boletin_11_jar</output-path>
+    <root id="archive" name="Boletin_11.jar">
+      <element id="module-output" name="Boletin_11" />
+    </root>
+  </artifact>
+</component>
