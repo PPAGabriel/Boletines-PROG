@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Boletin 3_1/Boletin 3_1.iml" filepath="$PROJECT_DIR$/Boletin 3_1/Boletin 3_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Boletin3_2/Boletin3_2.iml" filepath="$PROJECT_DIR$/Boletin3_2/Boletin3_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Boletin3_3/Boletin3_3.iml" filepath="$PROJECT_DIR$/Boletin3_3/Boletin3_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Boletin3_4/Boletin3_4.iml" filepath="$PROJECT_DIR$/Boletin3_4/Boletin3_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Boletin3_5/Boletin3_5.iml" filepath="$PROJECT_DIR$/Boletin3_5/Boletin3_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Boletin_3.iml" filepath="$PROJECT_DIR$/.idea/Boletin_3.iml" />
+    </modules>
+  </component>
+</project>

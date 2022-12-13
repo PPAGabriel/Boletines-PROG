@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Boletin1_1_extra/Boletin1_1_extra.iml" filepath="$PROJECT_DIR$/Boletin1_1_extra/Boletin1_1_extra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Boletin1_2_extra/Boletin1_2_extra.iml" filepath="$PROJECT_DIR$/Boletin1_2_extra/Boletin1_2_extra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Boletin1_3_extra/Boletin1_3_extra.iml" filepath="$PROJECT_DIR$/Boletin1_3_extra/Boletin1_3_extra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Boletin_Extra_1.iml" filepath="$PROJECT_DIR$/.idea/Boletin_Extra_1.iml" />
+    </modules>
+  </component>
+</project>
