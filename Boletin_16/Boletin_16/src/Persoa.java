@@ -1,11 +1,11 @@
 public class Persoa {
-    private String NIF;
+    private String nif;
     private String nome;
     private String apellido;
 
     public Persoa(){};
-    public Persoa(String nif, String n, String a){
-        NIF= nif;
+    public Persoa(String nf, String n, String a){
+        nif= nf;
         nome=n;
         apellido=a;
     }
@@ -15,14 +15,14 @@ public class Persoa {
         nome=n;
     }
     public void setNIF(String n){
-        NIF=n;
+        nif=n;
     }
     public void setApellido(String a){
         apellido=a;
     }
 
     public String getNIF(){
-        return NIF;
+        return nif;
     }
     public String getNome(){
         return nome;
@@ -34,7 +34,7 @@ public class Persoa {
     @Override
     public String toString() {
         return
-                "NIF='" + NIF + '\'' +
+                "NIF='" + nif + '\'' +
                 ", nome='" + nome + '\'' +
                 ", apellido='" + apellido + '\'' +
                 '}';
