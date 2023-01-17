@@ -13,6 +13,10 @@ public static String pedirString(String mensaxe){
         return JOptionPane.showInputDialog(mensaxe);
         } 
 
+public static float pedirFLoat(String mensaxe){
+        return Float.parseFloat(JOptionPane.showInputDialog(mensaxe));
+        } 
+
 public static int PedirInt(String mensaxe){
         return Integer.parseInt(JOptionPane.showInputDialog(mensaxe));
         }

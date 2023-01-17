@@ -8,10 +8,10 @@ package boletin_20;
  *
  * @author dam1
  */
-public class Aves implements IPodeCamiñar{
+public class Aves implements IPodeVoar{
 
     @Override
-    public void camiñar() {
+    public void voar() {
         System.out.println("El ave vuela");
     }
     

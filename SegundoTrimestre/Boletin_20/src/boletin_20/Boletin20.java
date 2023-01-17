@@ -22,9 +22,11 @@ public class Boletin20 {
         animal1.nadar();
         
         Avestruz animal2=new Avestruz();
+        animal2.voar();
         animal2.camiñar();
         
         Papagaio animal3=new Papagaio();
+        animal3.voar();
         animal3.camiñar();
         
         Morcego animal4=new Morcego();

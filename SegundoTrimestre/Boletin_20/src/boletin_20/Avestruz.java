@@ -8,6 +8,11 @@ package boletin_20;
  *
  * @author dam1
  */
-public class Avestruz extends Aves{
+public class Avestruz extends Aves implements IPodeCamiñar{
+
+    @Override
+    public void camiñar() {
+        System.out.println("El Avestruz camina");
+    }
     
 }
