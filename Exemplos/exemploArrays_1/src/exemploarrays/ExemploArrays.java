@@ -27,19 +27,27 @@ public class ExemploArrays {
         obx.amosarArray(aux);
         obx.amosarPosicion(aux, 2);*/
        
-        opcion=Integer.parseInt(JOptionPane.showInputDialog("***MENU***\n1-->CREAR ARRAY\n2-->AMOSAR\n3-->BUSQUEDA\n4-->ORDENAR"));
+        opcion=Integer.parseInt(JOptionPane.showInputDialog("***MENU***\n1-->CREAR ARRAY\n2-->AMOSAR\n3-->BUSQUEDA\n4-->ORDENAR\n5-->ELIMINAR ELEMENTO\n6-->AÑADIR ELEMENTO\n7-->SALIR DEL PROGRAMA"));
         
         switch(opcion){
             case 1:aux=obx.crearArrayFloat();
             break;
-            case 2: obx.amosarArrayForEach(aux);
+            case 2: obx.amosarArray(aux);
                 System.out.println("\n");
             break;
             case 3: obx.buscarElemento(aux);
             break;
             case 4: obx.ordenarArray(aux);
+            break;
+            case 5: obx.borrarElemento(aux);
+            break;
+            case 6: obx.añadirElemento(aux);
+            break;
+            case 7:System.exit(0);
+            break;
+            default:System.out.println("*** OPCIÓN INCORRECTA ***");
         }
-        }while(opcion<=4);
+        }while(opcion<=7);
     }
     
 }
