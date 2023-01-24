@@ -20,5 +20,9 @@ public static float pedirFLoat(String mensaxe){
 public static int PedirInt(String mensaxe){
         return Integer.parseInt(JOptionPane.showInputDialog(mensaxe));
         }
+
+public static long PedirLong(String mensaxe){
+        return Long.parseLong(JOptionPane.showInputDialog(mensaxe));
+        }
     
 }
