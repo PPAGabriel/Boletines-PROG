@@ -24,6 +24,9 @@ public class ExemploMatriz {
         obx1.verMatriz(matriz1);
         array1=obx1.notaMediaModulo(matriz1);
         obx1.verNotaMedia(array1);
+        
+        array1=obx1.notaMediaAlumno(matriz1);
+        obx1.verNotaMedia(array1);
     }
     
 }
