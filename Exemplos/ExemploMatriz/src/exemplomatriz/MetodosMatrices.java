@@ -34,14 +34,28 @@ public class MetodosMatrices {
     return matriz;
     }
     
-    public void verMatriz(int [][]matriz){
+    public void verMatriz(int [][]matriz,float array1[], float array2[]){
+        
+        int acum=0;
+        
+        System.out.println("                PRO      BD         MEDIA ALUMNO");
+        
         for (int i=0;i<matriz.length;i++){
-            System.out.print("Alumno nro."+(i+1)+": ");
+            System.out.print("Alumno nro."+(i+1)+": | ");
             for (int j=0;j<matriz[i].length;j++){
-                System.out.print(matriz[i][j]+" ");
+                System.out.print(matriz[i][j]+"       ");
             }
-            System.out.println("");
+            System.out.print("|  ");
+            System.out.println(array2[acum]);
+            acum++;
+            
         }
+        System.out.print("Media Modulo   ");
+        for (int i=0;i<array1.length;i++){
+            System.out.print(array1[i]+"    ");
+        }
+        System.out.println("");
+        
     }
     
     public float[] notaMediaAlumno(int [][]matriz){
@@ -80,9 +94,8 @@ public class MetodosMatrices {
     
     public void verNotaMedia(float array[]){
         for (int i=0;i<array.length;i++){
-            System.out.println(array[i]);
+            System.out.print(array[i]);
         }
-        System.out.println("*************");
     }
    
     

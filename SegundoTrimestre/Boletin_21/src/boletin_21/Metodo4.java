@@ -21,7 +21,7 @@ public class Metodo4 {
         
         float div=nro%23;
         int resto=(int)div;
-        char[] arrayLetras = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
+        char[] arrayLetras = {'T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'};
         
         for (int i=0;i<arrayLetras.length;i++){
             if(resto==i){
