@@ -21,6 +21,24 @@ public class Boletin_22 {
         
         matriz=obx.crearTabla();
         obx.verTabla(matriz);
+        
+         System.out.println("***********************************************************************************");
+        
+        obx.ordenarTabla(matriz, obx.equipos);
+        obx.verTabla(matriz);
+        
+        System.out.println("***********************************************************************************");
+        
+        obx.goleadorJornada(matriz, obx.equipos);
+        
+         System.out.println("***********************************************************************************");
+         
+        obx.goatEquipo(matriz, obx.equipos);
+        
+         System.out.println("***********************************************************************************");
+        
+        obx.consultar(matriz, obx.equipos);
+        
     }
     
     
