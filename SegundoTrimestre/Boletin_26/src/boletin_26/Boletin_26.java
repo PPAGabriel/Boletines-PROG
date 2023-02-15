@@ -31,13 +31,14 @@ public class Boletin_26 {
                                                                    "2: Mostrar la lista"+"\n"+
                                                                    "3: Buscar el mínimo"+"\n"+
                                                                    "4: Buscar el máximo"+"\n"+
-                                                                   "5: Buscar un número");
+                                                                   "5: Buscar un número"+"\n"+
+                                                                   "6: Eliminar un número");
         
         switch(opc){
             case 1:
                 int cn=PedirDatos.pedirInt("Cuantos números deseas añadir?");
                 for(int i=0;i<cn;i++){
-                    obx1.engadir(PedirDatos.pedirInt("Introduce el número"), lista1);
+                    obx1.engadir(PedirDatos.pedirInt("Introduce el número a añadir:"), lista1);
                 }
                 break;
             case 2:
@@ -52,11 +53,14 @@ public class Boletin_26 {
             case 5:
                 obx1.buscarElemento(PedirDatos.pedirInt("Que número deseas buscar?"), lista1);
                 break;
+            case 6:
+                obx1.eliminar(PedirDatos.pedirInt("Introduce el número a eliminar:"), lista1);
+                break;
             default:
                 JOptionPane.showMessageDialog(null, "Orden no encontrada");
                 break;
             }
-        }while(opc<=5);
+        }while(opc<=6);
         
     }
     
