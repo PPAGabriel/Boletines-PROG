@@ -71,7 +71,7 @@ public class ExemploArrayList {
         do {
              opcion = PedirDatos.pedirInt("\"***MENU***:\n1--> "
                 + "Engadir xogador\n2--> Amosar\n3--> Buscar\n4--> Eliminar"
-                     + "\n5--> Ordenar por dorsal\n6--> Ordenar por nome\nTeclar una opcion");
+                     + "\n5--> Ordenar por nombre\n6--> Ordenar por dorsal\nTeclar una opcion");
             switch (opcion) {
                 case 1:
                     obx.engadir(listXog);
@@ -90,7 +90,8 @@ public class ExemploArrayList {
                     obx.ordenar(listXog);
                     break;
                 case 6:
-                    
+                    System.out.println("opción no disponible");
+                    break;
                 default: System.out.println("Opcion incorrecta");
                 
                 

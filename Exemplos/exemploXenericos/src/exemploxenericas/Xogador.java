@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package exemploarraylist;
+package exemploxenericas;
 
 /**
  *
@@ -12,6 +12,8 @@ public class Xogador implements Comparable{
     
     private String nome;
     private int dorsal;
+    
+    public Xogador(){};
 
     public Xogador(String nome, int dorsal) {
         this.nome = nome;
@@ -55,9 +57,9 @@ public class Xogador implements Comparable{
             return -1;
         else
             return 0;
-    }*/
+    }  */
     
-    /* PARA ORDENAR POR NOMBRE*/
+    /* PARA ORDENAR POR NOMBRE  */
     
     public int compareTo(Object o) {
         Xogador x = (Xogador)o;
@@ -68,8 +70,7 @@ public class Xogador implements Comparable{
         else
             return 0;
     }
-    
-    
+   
     
     
     
