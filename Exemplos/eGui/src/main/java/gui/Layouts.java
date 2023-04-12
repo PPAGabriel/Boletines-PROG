@@ -4,6 +4,7 @@
  */
 package gui;
 
+import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import javax.swing.*;
 /**
@@ -95,6 +96,21 @@ public class Layouts {
         panel.add(b5);
         marco.add(panel);
         
+        pecharVentana();
+    }
+    
+    public void borderLayout(){
+        iniciarCompoñentes();
+        panel.setLayout(new BorderLayout());
+        
+        //engadimos compoñentes
+        panel.add(b1,BorderLayout.NORTH);
+        panel.add(b2,BorderLayout.WEST);
+        panel.add(b3,BorderLayout.EAST);
+        panel.add(b4,BorderLayout.SOUTH);
+        panel.add(b5);
+        
+        marco.add(panel);
         pecharVentana();
     }
 }

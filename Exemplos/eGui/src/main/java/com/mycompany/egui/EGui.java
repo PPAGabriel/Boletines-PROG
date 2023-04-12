@@ -27,8 +27,10 @@ public class EGui {
         */
 //      Layouts v4 = new Layouts();
 //      v4.flowLayout2();
-        Layouts v5 = new Layouts();
-        v5.disBoxLayout();
+//      Layouts v5 = new Layouts();
+//      v5.disBoxLayout();
+        Layouts v6=new Layouts();
+        v6.borderLayout();
     }
  
 }
