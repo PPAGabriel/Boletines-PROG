@@ -113,4 +113,9 @@ public class Layouts {
         marco.add(panel);
         pecharVentana();
     }
+    
+    public void disGridLayout(){
+        iniciarCompoñentes();
+        panel.setLayout(new GridLayout(3,4));
+    }
 }
