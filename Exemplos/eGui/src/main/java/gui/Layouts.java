@@ -6,6 +6,7 @@ package gui;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
+import java.awt.GridLayout;
 import javax.swing.*;
 /**
  *
@@ -117,5 +118,14 @@ public class Layouts {
     public void disGridLayout(){
         iniciarCompoñentes();
         panel.setLayout(new GridLayout(3,4));
+        panel.add(b1);
+        panel.add(b2);
+        panel.add(b3);
+        panel.add(b4);
+        panel.add(b5);
+        marco.add(panel);
+        pecharVentana();
+        
+        
     }
 }
