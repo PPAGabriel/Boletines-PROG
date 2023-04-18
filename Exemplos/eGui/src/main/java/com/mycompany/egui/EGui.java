@@ -4,6 +4,9 @@
 
 package com.mycompany.egui;
 
+import gui.EventoClaseAnonima;
+import gui.EventoClaseInterna;
+import gui.EventoMesmaClase;
 import gui.Layouts;
 
 /**
@@ -29,8 +32,18 @@ public class EGui {
 //      v4.flowLayout2();
 //      Layouts v5 = new Layouts();
 //      v5.disBoxLayout();
-        Layouts v6=new Layouts();
-        v6.borderLayout();
+       // Layouts v6=new Layouts();
+       //v6.borderLayout();
+        
+         
+        //EventoMesmaClase v6 = new EventoMesmaClase();
+        //v5.iniciar();
+         
+       // EventoClaseInterna v7 = new EventoClaseInterna();
+        //v6.iniciar();
+        
+        EventoClaseAnonima v8= new EventoClaseAnonima();
+        v8.iniciar();
     }
  
 }
