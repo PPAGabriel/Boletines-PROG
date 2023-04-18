@@ -1,0 +1,4 @@
+Alumno: A, Nota: 1
+Alumno: B, Nota: 2
+Alumno: C, Nota: 3
+Alumno: d, Nota: 4
