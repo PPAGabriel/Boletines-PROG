@@ -13,6 +13,10 @@ public class Seleccionador extends SeleccionFutbol{
     public Seleccionador(Integer id, String nombre, String apellidos, Integer edad) {
         super(id, nombre, apellidos, edad);
     }
+    
+    public void SeleccionXogador(){
+        System.out.println("Jugador seleccionado");
+    }
 
     @Override
     public void concentrarse() {
