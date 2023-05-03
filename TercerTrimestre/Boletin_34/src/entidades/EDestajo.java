@@ -12,6 +12,7 @@ import java.util.GregorianCalendar;
  */
 public class EDestajo extends Empregado{
     private int clientesC;
+    private int complemento;
 
     public EDestajo() {
     }
@@ -21,16 +22,16 @@ public class EDestajo extends Empregado{
         this.clientesC=cc;
     }
     
-    public float calcularComplemento(int cc){
-        float comple=0;
+    public int calcularComplemento(int cc){
+       complemento=0;
         
         if (cc<=5){
-            comple=100;
+            complemento=100;
         }else{
-            comple=250;
+            complemento=250;
         }
         
-        return comple;
+        return complemento;
     }
 
     public int getClientesC() {
@@ -43,7 +44,7 @@ public class EDestajo extends Empregado{
 
     @Override
     public String toString() {
-        return super.toString()+ " clientesC:" + clientesC;
+        return super.toString() + " clientesC:" + clientesC + ", complemento: " + calcularComplemento(clientesC);
     }
     
     
