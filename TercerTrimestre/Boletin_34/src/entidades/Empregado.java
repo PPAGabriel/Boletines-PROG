@@ -60,7 +60,7 @@ public class Empregado {
 
     @Override
     public String toString() {
-        return "dni: " + dni + ", nome:" + nome + ", apelidos:" + apelidos + ", data:" + data;
+        return "dni: " + dni + ", nome:" + nome + ", apelidos:" + apelidos + ", data:" + data.getTime();
     }
     
     

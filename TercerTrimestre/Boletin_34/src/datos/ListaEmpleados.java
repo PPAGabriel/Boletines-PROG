@@ -18,6 +18,7 @@ import java.io.PrintWriter;
 public class ListaEmpleados {
     FileWriter ou=null;
     PrintWriter fich=null;
+    
     public void escribirContratado(File ficheiro, EContratado emp){
         try{
             ou=new FileWriter(ficheiro,true);

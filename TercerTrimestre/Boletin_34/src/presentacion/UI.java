@@ -29,7 +29,7 @@ public class UI extends javax.swing.JFrame {
         panel1 = new javax.swing.JPanel();
         eLabel1 = new javax.swing.JLabel();
         eLabel2 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        comboBox = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -44,10 +44,15 @@ public class UI extends javax.swing.JFrame {
         eLabel2.setForeground(new java.awt.Color(102, 0, 102));
         eLabel2.setText("Indique el tipo de empleado:");
 
-        jComboBox1.setBackground(new java.awt.Color(255, 204, 255));
-        jComboBox1.setFont(new java.awt.Font("NATS", 0, 18)); // NOI18N
-        jComboBox1.setForeground(new java.awt.Color(51, 0, 51));
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Contratado", "Destajo" }));
+        comboBox.setBackground(new java.awt.Color(255, 204, 255));
+        comboBox.setFont(new java.awt.Font("NATS", 0, 18)); // NOI18N
+        comboBox.setForeground(new java.awt.Color(51, 0, 51));
+        comboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Contratado", "Destajo" }));
+        comboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                comboBoxActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
         panel1.setLayout(panel1Layout);
@@ -61,7 +66,7 @@ public class UI extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(eLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(comboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(154, 154, 154))
         );
         panel1Layout.setVerticalGroup(
@@ -72,7 +77,7 @@ public class UI extends javax.swing.JFrame {
                 .addGap(46, 46, 46)
                 .addComponent(eLabel2)
                 .addGap(18, 18, 18)
-                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(comboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(71, Short.MAX_VALUE))
         );
 
@@ -89,6 +94,14 @@ public class UI extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void comboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboBoxActionPerformed
+        // TODO add your handling code here:
+        if (comboBox.getSelectedIndex()==0){
+            
+            }else{
+                }
+    }//GEN-LAST:event_comboBoxActionPerformed
 
     /**
      * @param args the command line arguments
@@ -126,9 +139,9 @@ public class UI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JComboBox<String> comboBox;
     private javax.swing.JLabel eLabel1;
     private javax.swing.JLabel eLabel2;
-    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JPanel panel1;
     // End of variables declaration//GEN-END:variables
 }

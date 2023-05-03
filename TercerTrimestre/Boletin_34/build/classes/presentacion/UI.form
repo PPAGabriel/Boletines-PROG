@@ -52,7 +52,7 @@
                   <EmptySpace max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="eLabel2" min="-2" pref="272" max="-2" attributes="0"/>
-                      <Component id="jComboBox1" min="-2" pref="261" max="-2" attributes="0"/>
+                      <Component id="comboBox" min="-2" pref="261" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="154" max="-2" attributes="0"/>
               </Group>
@@ -66,7 +66,7 @@
                   <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                   <Component id="eLabel2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jComboBox1" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="comboBox" min="-2" pref="46" max="-2" attributes="0"/>
                   <EmptySpace pref="71" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -96,7 +96,7 @@
             <Property name="text" type="java.lang.String" value="Indique el tipo de empleado:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JComboBox" name="jComboBox1">
+        <Component class="javax.swing.JComboBox" name="comboBox">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="cc" red="ff" type="rgb"/>
@@ -114,6 +114,9 @@
               </StringArray>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboBoxActionPerformed"/>
+          </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>
